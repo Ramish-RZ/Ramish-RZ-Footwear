@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file -->
+    <style>
+        /* Additional styling specific to this page */
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Set minimum height to full viewport height */
+        }
+        .contact-content {
+            text-align: center; /* Center align content */
+            max-width: 600px; /* Set maximum width */
+            margin: auto; /* Center the section horizontally */
+            flex-grow: 1; /* Allow content to grow to fill remaining space */
+        }
+        footer {
+            text-align: center;
+            background-color: #f4f4f4;
+            padding: 10px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+    <nav>
+        <a href="index.html" class="current">Home</a>
+        <a href="shopping cart.html">shopping cart</a>
+        <a href="about us.html">About Us</a>
+        <a href="contact us.html">Contact Us</a>
+    </nav>
+    
+    <section class="contact-content">
+        <p>If you have any questions or inquiries, feel free to contact us using the form below:</p>
+        <form action="#" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Footwear. All rights reserved.</p>
+    </footer>
+</body>
+</html>

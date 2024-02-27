@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file -->
+    <style>/* Additional styling specific to this page */
+        body {
+            padding: 0;
+            margin: 0;
+            background-color: #f4f4f4; /* Set background color */
+        }
+        
+        header {
+            text-align: center;
+            background-color: #333;
+            color: #fff;
+            padding: 31px;
+            margin: 0; /* Remove default margin */
+        }
+        
+        header h1 {
+            margin: 0; /* Remove default margin for h1 */
+        }
+        
+        nav {
+            text-align: center;
+            background-color: #f4f4f4; /* Set background color */
+            color: #333; /* Set text color */
+            padding: 10px; /* Add padding */
+        }
+        
+        nav a {
+            color: #333; /* Set text color */
+            text-decoration: none; /* Remove underline */
+            margin: 0 10px; /* Add spacing between links */
+        }
+        
+        nav a:hover {
+            color: #555; /* Change color on hover */
+        }
+        
+        .cart-items,
+        .cart-summary {
+            margin-bottom: 20px;
+            background-color: #fff; /* Set background color */
+            padding: 20px; /* Add padding */
+        }
+        
+        .checkout-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        
+        .checkout-button:hover {
+            background-color: #45a049;
+        }
+        
+        footer {
+            text-align: center;
+            background-color: #f4f4f4;
+            padding: 10px;
+            color: #333;
+        }</style>
+</head>
+<body>
+    <header>
+        <h1>Shopping Cart</h1>
+    </header>
+    
+    <nav>
+        <a href="index.html" class="current">Home</a>
+        <a href="shopping cart.html">Shopping Cart</a>
+        <a href="about us.html">About Us</a>
+        <a href="contact us.html">Contact Us</a>
+    </nav>
+    
+    <div class="cart-items">
+        <h2>Your Cart</h2>
+        <ul>
+            <li>
+               <class="image"id="product1">
+                <div>
+                <h3>Shoe Name</h3>
+                <p>Description</p>
+                <p>Price: $0</p></div> 
+            </li>
+            <!-- Repeat this structure for each item in the cart -->
+        </ul>
+    </div>
+
+    <div class="cart-summary">
+        <h2>Cart Summary</h2>
+        <p>Total Items: 0</p>
+        <p>Total Price: $0</p>
+        <a href="checkout.html" class="checkout-button">Proceed to Checkout</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Footwear. All rights reserved.</p>
+    </footer>
+</body>
+</html>
